@@ -89,3 +89,5 @@ fastlane/test_output
 
 iOSInjectionProject/
 .DS_Store
+TrackMe/Pods/Target Support Files
+TrackMe/Pods/KeychainSwift
