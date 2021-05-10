@@ -3,20 +3,24 @@ PODS:
   - NSLogger/ObjC (1.9.7)
   - NSLogger/Swift (1.9.7):
     - NSLogger/ObjC
+  - TPKeyboardAvoidingSwift (3.2)
 
 DEPENDENCIES:
   - KeychainSwift (~> 19.0)
   - NSLogger/Swift
+  - TPKeyboardAvoidingSwift
 
 SPEC REPOS:
   trunk:
     - KeychainSwift
     - NSLogger
+    - TPKeyboardAvoidingSwift
 
 SPEC CHECKSUMS:
   KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
   NSLogger: cf3013a4fba189f631f07e6c3d5b8ce2b209654b
+  TPKeyboardAvoidingSwift: ce1a75e0bc3af6b485f8bfa1d0a8320cfc565851
 
-PODFILE CHECKSUM: 897a448dfb764e339f78608668286b7fec798bf7
+PODFILE CHECKSUM: 31e8fe685bcb342d5c655a2a523571f5e65151ab
 
 COCOAPODS: 1.10.1

@@ -92,3 +92,4 @@ iOSInjectionProject/
 TrackMe/Pods/Target Support Files
 TrackMe/Pods/KeychainSwift
 TrackMe/Pods/NSLogger
+TrackMe/Pods/TPKeyboardAvoidingSwift

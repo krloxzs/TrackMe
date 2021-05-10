@@ -11,6 +11,8 @@ import UIKit
 
 class LoginView: UIViewController {
 
+    @IBOutlet weak var emailTextfield: UITextField!
+    @IBOutlet weak var passwordTextfield: UITextField!
     // MARK: Properties
     var presenter: LoginPresenterProtocol?
 
@@ -23,4 +25,11 @@ class LoginView: UIViewController {
 
 extension LoginView: LoginViewProtocol {
     // TODO: implement view output methods
+}
+extension LoginView: UITextFieldDelegate{
+//Close text field with return key
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }
