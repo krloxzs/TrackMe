@@ -1,16 +1,22 @@
 PODS:
   - KeychainSwift (19.0.0)
+  - NSLogger/ObjC (1.9.7)
+  - NSLogger/Swift (1.9.7):
+    - NSLogger/ObjC
 
 DEPENDENCIES:
   - KeychainSwift (~> 19.0)
+  - NSLogger/Swift
 
 SPEC REPOS:
   trunk:
     - KeychainSwift
+    - NSLogger
 
 SPEC CHECKSUMS:
   KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  NSLogger: cf3013a4fba189f631f07e6c3d5b8ce2b209654b
 
-PODFILE CHECKSUM: 84e692e3944df0509d1f0a16f50cf8f61ee364ef
+PODFILE CHECKSUM: 897a448dfb764e339f78608668286b7fec798bf7
 
 COCOAPODS: 1.10.1

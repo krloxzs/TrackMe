@@ -7,12 +7,16 @@
 
 import UIKit
 import CoreData
+import NSLogger
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window:UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let loggerManager: LoggerManager = LoggerManager()
+        loggerManager.prepareLogger()
+        loggerManager.logError(domain: Logger.Domain.app, message: "TrackMe init at \(loggerManager.initTimer)")
         let homeView: UIViewController = LoginWireFrame.createLoginModule()
         UIApplication.shared.windows.first?.rootViewController = homeView
         UIApplication.shared.windows.first?.makeKeyAndVisible()

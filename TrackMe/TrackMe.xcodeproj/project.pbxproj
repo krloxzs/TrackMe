@@ -24,6 +24,10 @@
 		3E0CF2CE2648C2120027B215 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CF2C72648C2120027B215 /* LoginView.swift */; };
 		3E0CF2CF2648C2120027B215 /* LoginRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CF2C82648C2120027B215 /* LoginRemoteDataManager.swift */; };
 		3E0CF2D02648C2120027B215 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CF2C92648C2120027B215 /* LoginWireFrame.swift */; };
+		3E0CF2DB2648ECF80027B215 /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CF2DA2648ECF80027B215 /* KeyChainManager.swift */; };
+		3E0CF2DE26499B250027B215 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CF2DD26499B250027B215 /* RequestManager.swift */; };
+		3E0CF2E12649A69B0027B215 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CF2E02649A69B0027B215 /* Logger.swift */; };
+		3E0CF2E42649AD650027B215 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CF2E32649AD650027B215 /* Constants.swift */; };
 		4AAF435E6F33FD2824707683 /* Pods_TrackMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3E09C0C4722C9755DC70BB /* Pods_TrackMeTests.framework */; };
 		8FE25FCE8CA218D9271AE5BB /* Pods_TrackMe_TrackMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0772FF2EF54554349C6111E /* Pods_TrackMe_TrackMeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +75,10 @@
 		3E0CF2C82648C2120027B215 /* LoginRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRemoteDataManager.swift; sourceTree = "<group>"; };
 		3E0CF2C92648C2120027B215 /* LoginWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
 		3E0CF2D92648EB670027B215 /* TrackMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackMe.entitlements; sourceTree = "<group>"; };
+		3E0CF2DA2648ECF80027B215 /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		3E0CF2DD26499B250027B215 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		3E0CF2E02649A69B0027B215 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		3E0CF2E32649AD650027B215 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4F6397003BFAB88E90E8E75F /* Pods-TrackMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMe.debug.xcconfig"; path = "Target Support Files/Pods-TrackMe/Pods-TrackMe.debug.xcconfig"; sourceTree = "<group>"; };
 		6C3E09C0C4722C9755DC70BB /* Pods_TrackMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C4809DF6F61E67B396E257 /* Pods-TrackMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMe.release.xcconfig"; path = "Target Support Files/Pods-TrackMe/Pods-TrackMe.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +196,7 @@
 		3E0CF2AE2648BE040027B215 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				3E0CF2DC26499B0D0027B215 /* Network */,
 				3E0CF27C2648AEED0027B215 /* ViewController.swift */,
 				3E0CF27E2648AEED0027B215 /* Main.storyboard */,
 				3E0CF2862648AEEF0027B215 /* LaunchScreen.storyboard */,
@@ -200,6 +209,8 @@
 		3E0CF2AF2648BE150027B215 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3E0CF2E22649AD0A0027B215 /* Constants */,
+				3E0CF2DF2649A6910027B215 /* Logger */,
 				3E0CF2B12648BE6E0027B215 /* DB */,
 			);
 			path = Common;
@@ -223,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				3E0CF2812648AEED0027B215 /* TrackMe.xcdatamodeld */,
+				3E0CF2DA2648ECF80027B215 /* KeyChainManager.swift */,
 			);
 			path = DB;
 			sourceTree = "<group>";
@@ -289,6 +301,30 @@
 				3E0CF2C52648C2120027B215 /* LoginProtocols.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3E0CF2DC26499B0D0027B215 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3E0CF2DD26499B250027B215 /* RequestManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3E0CF2DF2649A6910027B215 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				3E0CF2E02649A69B0027B215 /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		3E0CF2E22649AD0A0027B215 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3E0CF2E32649AD650027B215 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		3EAA363D18D8A31032272694 /* Pods */ = {
@@ -556,11 +592,15 @@
 				3E0CF2CA2648C2120027B215 /* LoginPresenter.swift in Sources */,
 				3E0CF27D2648AEED0027B215 /* ViewController.swift in Sources */,
 				3E0CF2CD2648C2120027B215 /* LoginInteractor.swift in Sources */,
+				3E0CF2DE26499B250027B215 /* RequestManager.swift in Sources */,
 				3E0CF2792648AEED0027B215 /* AppDelegate.swift in Sources */,
+				3E0CF2DB2648ECF80027B215 /* KeyChainManager.swift in Sources */,
 				3E0CF2D02648C2120027B215 /* LoginWireFrame.swift in Sources */,
 				3E0CF2CC2648C2120027B215 /* LoginProtocols.swift in Sources */,
 				3E0CF2832648AEED0027B215 /* TrackMe.xcdatamodeld in Sources */,
+				3E0CF2E12649A69B0027B215 /* Logger.swift in Sources */,
 				3E0CF2CE2648C2120027B215 /* LoginView.swift in Sources */,
+				3E0CF2E42649AD650027B215 /* Constants.swift in Sources */,
 				3E0CF2CB2648C2120027B215 /* LoginLocalDataManager.swift in Sources */,
 				3E0CF2CF2648C2120027B215 /* LoginRemoteDataManager.swift in Sources */,
 			);

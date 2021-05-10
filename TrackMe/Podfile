@@ -7,7 +7,7 @@ target 'TrackMe' do
 
   # Pods for TrackMe
   pod 'KeychainSwift', '~> 19.0'
-  
+  pod "NSLogger/Swift"
   target 'TrackMeTests' do
     inherit! :search_paths
     # Pods for testing

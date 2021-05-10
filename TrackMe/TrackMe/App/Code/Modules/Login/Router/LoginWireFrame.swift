@@ -19,7 +19,6 @@ class LoginWireFrame: LoginWireFrameProtocol {
             let localDataManager: LoginLocalDataManagerInputProtocol = LoginLocalDataManager()
             let remoteDataManager: LoginRemoteDataManagerInputProtocol = LoginRemoteDataManager()
             let wireFrame: LoginWireFrameProtocol = LoginWireFrame()
-            
             view.presenter = presenter
             presenter.view = view
             presenter.wireFrame = wireFrame
@@ -28,7 +27,6 @@ class LoginWireFrame: LoginWireFrameProtocol {
             interactor.localDatamanager = localDataManager
             interactor.remoteDatamanager = remoteDataManager
             remoteDataManager.remoteRequestHandler = interactor
-            
             return navController
         }
         return UIViewController()
