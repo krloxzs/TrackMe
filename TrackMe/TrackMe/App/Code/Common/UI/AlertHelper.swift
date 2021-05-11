@@ -14,4 +14,12 @@ class AlertHelper {
         alertView.dismissByTap = true
         alertView.present(duration: 3)
     }
+    
+    func showAlert(message: String, completion: @escaping () -> Void) {
+        let alertView = SPAlertView(title: message, preset: .done)
+        alertView.dismissByTap = true
+        alertView.present(duration: 3) {
+            completion()
+        }
+    }
 }

@@ -15,9 +15,10 @@ class RegisterInteractor: RegisterInteractorInputProtocol {
     var localDatamanager: RegisterLocalDataManagerInputProtocol?
     var remoteDatamanager: RegisterRemoteDataManagerInputProtocol?
 
-    func updateFormInformation(with email: String, password: String) {
+    func updateFormInformation(with email: String, password: String, name: String) {
         if self.validateEmail(withEmail: email),
-           self.validatePassword(withPassword: password) {
+           self.validatePassword(withPassword: password),
+           !name.isEmpty {
             presenter?.enableSignUpButton()
         } else {
             presenter?.dissableSignUpButton()
@@ -39,8 +40,21 @@ class RegisterInteractor: RegisterInteractorInputProtocol {
             return false
         }
     }
+
+    func registerUser(with email: String, password: String, name: String) {
+        remoteDatamanager?.registerUser(with: email, password: password, name: name)
+    }
+    
 }
 
 extension RegisterInteractor: RegisterRemoteDataManagerOutputProtocol {
+    func registerSuccess() {
+        presenter?.registerSuccess()
+    }
+    
+    func errorInLogin(errorMessage: String) {
+        presenter?.errorInLogin(errorMessage: errorMessage)
+    }
+    
     // TODO: Implement use case methods
 }

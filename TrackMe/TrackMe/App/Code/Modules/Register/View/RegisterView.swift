@@ -13,6 +13,7 @@ class RegisterView: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
+    @IBOutlet weak var nameTextfield: UITextField!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
     
@@ -28,7 +29,7 @@ class RegisterView: UIViewController {
     }
     private func setUpUI() {
         registerButton.isEnabled = false
-        registerButton.setTitle("Iniciar sesion", for: .normal)
+        registerButton.setTitle("Registro", for: .normal)
         registerButton.setTitleColor(.white, for: .normal)
         registerButton.backgroundColor = Constants.AppColors.primaryColorMajorelleBlueDisable
         registerButton.layer.cornerRadius = 5
@@ -43,19 +44,30 @@ class RegisterView: UIViewController {
 
     @objc func formValidation() {
         presenter?.updateFormInformation(with: self.emailTextfield.text ?? "",
-                                         password: self.passwordTextfield.text ?? "")
+                                         password: self.passwordTextfield.text ?? "",
+                                         name: self.nameTextfield.text ?? "")
     }
     
     @IBAction func backButtonPress(_ sender: Any) {
-    
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func registerButtonPress(_ sender: UIButton) {
-    
+        guard let email: String = emailTextfield.text,
+              let password: String = passwordTextfield.text,
+              let name: String = nameTextfield.text else { return }
+        view.endEditing(true)
+        presenter?.registerUser(with: email, password: password, name: name)
     }
 }
 
 extension RegisterView: RegisterViewProtocol {
+    func registerSuccess() {
+        AlertHelper().showAlert(message: "Registro exitoso") { [weak self] in
+            self?.dismiss(animated: true, completion: nil)
+        }
+    }
+
     func showLoader(completion: @escaping () -> Void) {
         LoaderHelper().showLoader(view: self) {
              completion()
@@ -79,10 +91,8 @@ extension RegisterView: RegisterViewProtocol {
     }
     
     func errorInRegister(errorMessage: String) {
-        //        mostrar alerta
+        AlertHelper().showError(message: errorMessage)
     }
-    
-    // TODO: implement view output methods
 }
 
 extension RegisterView: UITextFieldDelegate{

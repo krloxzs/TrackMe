@@ -18,16 +18,30 @@ class RegisterPresenter  {
 }
 
 extension RegisterPresenter: RegisterPresenterProtocol {
-    func updateFormInformation(with email: String, password: String) {
-        interactor?.updateFormInformation(with: email, password: password)
-    }
-    
-    // TODO: implement presenter methods
+
     func viewDidLoad() {
     }
+
+    func registerUser(with email: String, password: String, name: String) {
+        view?.showLoader {
+            self.interactor?.registerUser(with: email, password: password, name: name)
+        }
+    }
+
+    func updateFormInformation(with email: String, password: String, name: String) {
+        interactor?.updateFormInformation(with: email, password: password, name: name)
+    }
+    
 }
 
 extension RegisterPresenter: RegisterInteractorOutputProtocol {
+
+    func errorInLogin(errorMessage: String) {
+        view?.hiddeLoader { [weak self] in
+            self?.view?.errorInRegister(errorMessage: errorMessage)
+        }
+    }
+    
     func enableSignUpButton() {
         view?.enableRegisterButton()
     }
@@ -35,6 +49,10 @@ extension RegisterPresenter: RegisterInteractorOutputProtocol {
     func dissableSignUpButton() {
         view?.dissableRegisterButton()
     }
-    
-    // TODO: implement interactor output methods
+
+    func registerSuccess() {
+        view?.hiddeLoader { [weak self] in
+            self?.view?.registerSuccess()
+        }
+    }
 }

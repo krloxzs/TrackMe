@@ -18,6 +18,7 @@ protocol RegisterViewProtocol: AnyObject {
     func enableRegisterButton()
     func dissableRegisterButton()
     func errorInRegister(errorMessage: String)
+    func registerSuccess()
 }
 
 protocol RegisterWireFrameProtocol: AnyObject {
@@ -32,13 +33,16 @@ protocol RegisterPresenterProtocol: AnyObject {
     var wireFrame: RegisterWireFrameProtocol? { get set }
     
     func viewDidLoad()
-    func updateFormInformation(with email: String, password: String)
+    func updateFormInformation(with email: String, password: String, name: String)
+    func registerUser(with email: String, password: String, name: String)
 }
 
 protocol RegisterInteractorOutputProtocol: AnyObject {
 // INTERACTOR -> PRESENTER
     func enableSignUpButton()
     func dissableSignUpButton()
+    func errorInLogin(errorMessage: String)
+    func registerSuccess()
 }
 
 protocol RegisterInteractorInputProtocol: AnyObject {
@@ -46,7 +50,8 @@ protocol RegisterInteractorInputProtocol: AnyObject {
     var presenter: RegisterInteractorOutputProtocol? { get set }
     var localDatamanager: RegisterLocalDataManagerInputProtocol? { get set }
     var remoteDatamanager: RegisterRemoteDataManagerInputProtocol? { get set }
-    func updateFormInformation(with email: String, password: String)
+    func updateFormInformation(with email: String, password: String, name: String)
+    func registerUser(with email: String, password: String, name: String)
 }
 
 protocol RegisterDataManagerInputProtocol: AnyObject {
@@ -56,10 +61,13 @@ protocol RegisterDataManagerInputProtocol: AnyObject {
 protocol RegisterRemoteDataManagerInputProtocol: AnyObject {
     // INTERACTOR -> REMOTEDATAMANAGER
     var remoteRequestHandler: RegisterRemoteDataManagerOutputProtocol? { get set }
+    func registerUser(with email: String, password: String, name: String)
 }
 
 protocol RegisterRemoteDataManagerOutputProtocol: AnyObject {
     // REMOTEDATAMANAGER -> INTERACTOR
+    func registerSuccess()
+    func errorInLogin(errorMessage: String)
 }
 
 protocol RegisterLocalDataManagerInputProtocol: AnyObject {
