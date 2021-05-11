@@ -35,5 +35,16 @@ class LoginWireFrame: LoginWireFrameProtocol {
     static var mainStoryboard: UIStoryboard {
         return UIStoryboard(name: "LoginStoryboard", bundle: nil)
     }
+
+    func registerUser(view: Any) {
+        guard let view: UIViewController = view  as? UIViewController else { return }
+        let homeView: UIViewController = RegisterWireFrame.createRegisterModule()
+        view.present(homeView,
+                     animated: true,
+                     completion: nil)
+    }
     
+    func setScreenAcordingToSession() {
+//cambiar el root
+    }
 }

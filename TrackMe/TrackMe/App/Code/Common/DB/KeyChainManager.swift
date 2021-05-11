@@ -11,20 +11,18 @@ import KeychainSwift
 class KeyChanManager {
     let prefix = "3T9SZTCQ53"
 
-    func saveUserInfo(name: String, email: String, password: String, userId: String) {
+    func saveUserInfo(name: String, email: String, userId: String) {
         let keychain = KeychainSwift()
         keychain.accessGroup = "\(prefix)com.krloxzs.trackme.TrackMe"
         keychain.set(name, forKey: "userName")
         keychain.set(email, forKey: "email")
-        keychain.set(password, forKey: "password")
         keychain.set(userId, forKey: "userId")
     }
 
     func getUserLogedIn() -> Bool {
         let keychain = KeychainSwift()
         keychain.accessGroup = "\(prefix)com.krloxzs.trackme.TrackMe"
-        guard let _ = keychain.get("userName"),
-           let _ = keychain.get("password") else {
+        guard let _ = keychain.get("userName") else {
             return false
         }
         return true
@@ -46,7 +44,6 @@ class KeyChanManager {
         keychain.accessGroup = "\(prefix)com.krloxzs.trackme.TrackMe"
         keychain.delete("userName")
         keychain.delete("email")
-        keychain.delete("password")
         keychain.delete("userId")
     }
 

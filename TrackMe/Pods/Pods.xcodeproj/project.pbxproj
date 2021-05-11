@@ -7,163 +7,247 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17AA37B498BC9E0AD683FCEBD555EB0D /* NSLoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 1946A9F673CDC8936CB647D20BDACD61 /* NSLoggerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		208DE73352B7BBFFD5EE91F1DB13AB66 /* NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D19FC847BDD15AB47AE6BD25AFEC38CE /* NSLogger-dummy.m */; };
-		268FB1B050849F4D876C9390D87E3969 /* Pods-TrackMe-TrackMeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A284EF1771F9DD4038EDA1E5AE3E0F3D /* Pods-TrackMe-TrackMeUITests-dummy.m */; };
-		26E6C44B2BB54487A0FB564B08D95E37 /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE279E413D25C755AF352703964F606 /* LoggerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2ADE7F56FA7B9E814B256E9E9FC01F2F /* Pods-TrackMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DAF732741780ABCCD19164BA53B7E0 /* Pods-TrackMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30528E9F78AD793A9A7CEB6C6A8A054F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A211CA4B03D2EC384F6E0A1E7D5370E5 /* Foundation.framework */; };
-		320E018022758AFD782991C7D8854DB1 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4201FCD46E0EC544493DC7D528A9CDD /* TegKeychainConstants.swift */; };
-		38CE5784D355469602D62AB788846382 /* Pods-TrackMe-TrackMeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331858B6ADBD68E13196458B3D0A52C3 /* Pods-TrackMe-TrackMeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		485A776035D4B1EF97E8AE0E95A66502 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94C076A57BC867A6AB23E3B707DBA7 /* KeychainSwiftAccessOptions.swift */; };
-		48C8E5E0E2D23BEA61604383B9E0F10A /* TPKeyboardAvoidingSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8A5BA1F47E728C01AA962C6F61E96E /* TPKeyboardAvoidingSwift-dummy.m */; };
-		4B255EB0716A1BB473E696C20812C697 /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFFD78B2086082A11D4455F00A37763 /* KeychainSwift-dummy.m */; };
-		4DC6C132AEF3E02BDD5ABC89333233B3 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B28E990B74D2C3D806310F0ABD5E00 /* KeychainSwift.swift */; };
-		6CEDB43D35571074D18B25669F3477A1 /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5018F2EDBCD0761B3AFBC2DE7D39FCC6 /* LoggerCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78765156750A5FA223FA2BECDFAC1750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A211CA4B03D2EC384F6E0A1E7D5370E5 /* Foundation.framework */; };
-		789DDFC39F3237645D9D1A0BC0C29E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A211CA4B03D2EC384F6E0A1E7D5370E5 /* Foundation.framework */; };
+		03D6158DD18C87BE5E65C85AA6F002DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */; };
+		0F8EBAADA80C6AF2C62DAAC68A8FD8AB /* SPAlertHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D2E121ADDA6E0FB97E8FF97B86ABBC /* SPAlertHaptic.swift */; };
+		17AA37B498BC9E0AD683FCEBD555EB0D /* NSLoggerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A941F70B3B193D699757C0C4C844F80 /* NSLoggerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		208DE73352B7BBFFD5EE91F1DB13AB66 /* NSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F832B328FAC15DC4FA9597C2748F47BF /* NSLogger-dummy.m */; };
+		25F5C18A53E9F6380BD5CCB96947A671 /* Pods-TrackMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DAF732741780ABCCD19164BA53B7E0 /* Pods-TrackMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E6C44B2BB54487A0FB564B08D95E37 /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E168098F98A092C13A7E125224E5852 /* LoggerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30528E9F78AD793A9A7CEB6C6A8A054F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */; };
+		30825F9E57DF4E095F0F3928E59C7758 /* SPAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20EDE97C4F6BDE848E5B9A3BDC4E77F7 /* SPAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320E018022758AFD782991C7D8854DB1 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF72AC74D5E5AABA753CAD1F94A7B5A7 /* TegKeychainConstants.swift */; };
+		485A776035D4B1EF97E8AE0E95A66502 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F9E45A9E4F6CF2F932560BADF763BF /* KeychainSwiftAccessOptions.swift */; };
+		48C8E5E0E2D23BEA61604383B9E0F10A /* TPKeyboardAvoidingSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFF763BE8E35C4590AF73EA0A6D301 /* TPKeyboardAvoidingSwift-dummy.m */; };
+		4B255EB0716A1BB473E696C20812C697 /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E89C1BDC7EBC0B61E14B2ADE8A0EDF27 /* KeychainSwift-dummy.m */; };
+		4DC6C132AEF3E02BDD5ABC89333233B3 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994651601CD97862BFC5C0B4D0072CDC /* KeychainSwift.swift */; };
+		570C57E2F7EB5A594868402D3C830391 /* SPAlertIconDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7A978E964B18AC6DB73B079970561 /* SPAlertIconDoneView.swift */; };
+		5F8C5665FEB194DA51EB48EE12F70A36 /* SPAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F18F24663D2CE0C00458599FA6B8E923 /* SPAlert-dummy.m */; };
+		603A44B0C00347070B5B2D9862663F70 /* SPAlertIconAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3381233317C13B5117D0B0B75015CE6 /* SPAlertIconAnimatable.swift */; };
+		6CEDB43D35571074D18B25669F3477A1 /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 458F96556230CCF82CF08C0E53839A59 /* LoggerCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA116A3729AD06FE4965D7FFA9FE63B /* SPAlertLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCEA11848A77D9CCC332E80806CCAF /* SPAlertLayout.swift */; };
+		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FDD180944311254E88B96EB2283BAB /* MBProgressHUD.m */; };
+		710551ED7EE50648813759061625806A /* Pods-TrackMe-TrackMeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331858B6ADBD68E13196458B3D0A52C3 /* Pods-TrackMe-TrackMeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF03697F2F6ECEA79E88CC251550568 /* CoreGraphics.framework */; };
+		789DDFC39F3237645D9D1A0BC0C29E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */; };
+		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB2796F963CB27B6423E25F5BA87407 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85435F96C52CC57024C4C554248DFDE1 /* Pods-TrackMeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A5EC54BBC4802D0178B22EB2A5B610 /* Pods-TrackMeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DB4A940100861C1A7B546DAF5743007 /* NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0C2369E88B583445BFD018A0686AE4 /* NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F2E2938AD3DC1E0E728B7885877419A /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 828104985AE8A91C41E9B698364DD74F /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A81DF558418945AAE11B0AC1DBE7F86E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A211CA4B03D2EC384F6E0A1E7D5370E5 /* Foundation.framework */; };
-		A8C1401167A065B1DE71BBE097980944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A211CA4B03D2EC384F6E0A1E7D5370E5 /* Foundation.framework */; };
+		894813A81B6575C84BED073331C76A64 /* Pods-TrackMe-TrackMeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A284EF1771F9DD4038EDA1E5AE3E0F3D /* Pods-TrackMe-TrackMeUITests-dummy.m */; };
+		92D72E2B335A6BDD963963DB32EB976B /* SPAlertIconHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D6915ED809D6175CEC64491DC83A1 /* SPAlertIconHeartView.swift */; };
+		933CDC3C1B833CBD52124B972624C692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */; };
+		9DB4A940100861C1A7B546DAF5743007 /* NSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF323387002C312EEA255E1D432D480 /* NSLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E5E430FBFED8DBB216B5912E74FB854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */; };
+		9F2E2938AD3DC1E0E728B7885877419A /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB2D85520B5CB60D00E2B2198AAD69 /* LoggerClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A81DF558418945AAE11B0AC1DBE7F86E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */; };
+		A8C1401167A065B1DE71BBE097980944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */; };
 		A8D5D2D33A86DF8269602B4BB251B390 /* Pods-TrackMeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 700410DB3BFBA118558E34DC61105630 /* Pods-TrackMeTests-dummy.m */; };
-		A8ECC633A5189AD2CCF533E0509F02C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A139D1B045801EED99C756DEC92BBF /* SystemConfiguration.framework */; };
-		B61B62C47C6633DA017401700EC95665 /* TPKeyboardAvoidingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD7DB47473385269B929C6B4A60220 /* TPKeyboardAvoidingSwift.swift */; };
-		C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D2187CD4F9A1BA27E6758816202D97 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C549733BB6C062DA7E42597D6B2B98D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E495FB7E7E63361DDA212C5A9A188E6 /* UIKit.framework */; };
-		C6BF330F96A7348251068F0046C2B202 /* TPKeyboardAvoidingSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C6867BC72639BFDCD460CAE39B60A4 /* TPKeyboardAvoidingSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D37F7A11A070641C57E7742A69313CAC /* NSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB77EF1D78D27354020FF66F64FEF2BD /* NSLogger.swift */; };
-		D3E5FD5CCBC40EFF02CFF47BD7687549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A211CA4B03D2EC384F6E0A1E7D5370E5 /* Foundation.framework */; };
-		DD4417E2121A5ADE850064DC901DF71A /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3D9005F29707A5B1C072B00DCA3B26 /* NSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF3A464403FBB946142A9C33350955A1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AB525FC7544FFA3A615482AF7DAD95 /* CFNetwork.framework */; };
-		FDE5B179871A65581DE0E6192A96CA29 /* Pods-TrackMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D8662A983CD4978544FC801AD9CE16 /* Pods-TrackMe-dummy.m */; };
+		A8ECC633A5189AD2CCF533E0509F02C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415DD810E463ED30B927C25789E9161E /* SystemConfiguration.framework */; };
+		AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */; };
+		B61B62C47C6633DA017401700EC95665 /* TPKeyboardAvoidingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C68E01C50BD26C882158EA30A21A1C /* TPKeyboardAvoidingSwift.swift */; };
+		B6461FC455E76D6427B298A059694C5D /* SPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D06D535BA04405486D0686D9FE9AD16 /* SPAlert.swift */; };
+		B6A307601C54492B96394E278F095E92 /* SPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A398B543B00C4A3688BB60F8F60E89DD /* SPAlertView.swift */; };
+		C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3E58BD51043DD313790FEC44420EB7 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C549733BB6C062DA7E42597D6B2B98D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3421DFC5FC340A57779C8E6E96C914E1 /* UIKit.framework */; };
+		C5B086C794DBB56621EEF1C23BC31E00 /* Pods-TrackMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D8662A983CD4978544FC801AD9CE16 /* Pods-TrackMe-dummy.m */; };
+		C6BF330F96A7348251068F0046C2B202 /* TPKeyboardAvoidingSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5337154657A1E6DB277DAFE979B0EB96 /* TPKeyboardAvoidingSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D37F7A11A070641C57E7742A69313CAC /* NSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588075A3089684DA5871FA8E50F3A970 /* NSLogger.swift */; };
+		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1394F37A1CC9240723605D7C1DC041B5 /* MBProgressHUD-dummy.m */; };
+		DD4417E2121A5ADE850064DC901DF71A /* NSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5F23B19473460F715FDB843ECFDA61 /* NSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF3A464403FBB946142A9C33350955A1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035219FD6001FD4F03DCBDF16CC9881E /* CFNetwork.framework */; };
+		E547D1E609A0486FBC2C386A14C44B51 /* SPAlertIconPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5063AA26AD4E5D3CF9FE506525BB58 /* SPAlertIconPreset.swift */; };
+		E710EAB54B8983AD48B1965D564ED8A3 /* SPAlertIconErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712EDC14C7F3D5808958346F50831E77 /* SPAlertIconErrorView.swift */; };
+		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E2ACEA4085123A637671626BE1B59DEE /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F612969E69DE5F072AD96720641B1184 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A436731840A556F87A1F1AB24A29448D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		03A0E7357986EFFCE4E55EA31C84C11C /* PBXContainerItemProxy */ = {
+		1D683CA8F45ACF49D7E2EBA40C51E905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		223FEF015B84B24567E5ABC1259D0C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F1357926C75B4E97533881F4C300B7;
+			remoteInfo = NSLogger;
+		};
+		5F82C02C65E3AD8CD372DB51872000D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2694F810B705424C98EA0E9804FB6CC7;
 			remoteInfo = "Pods-TrackMe";
 		};
-		3E5A90C9C1ECCECF941C90DC536A9548 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10F1357926C75B4E97533881F4C300B7;
-			remoteInfo = NSLogger;
-		};
-		41D8B99C27B9E4F052886A714C975EAE /* PBXContainerItemProxy */ = {
+		805DA25F7820368EC0F571E0AD22D849 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 997BD0C6C6E9A7EF79DD4AA760E75C8E;
 			remoteInfo = TPKeyboardAvoidingSwift;
 		};
-		5820DDF318D14CF61ACCC8DFDE48CD2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 997BD0C6C6E9A7EF79DD4AA760E75C8E;
-			remoteInfo = TPKeyboardAvoidingSwift;
-		};
-		644FDC6C7536AD64E81B62275F441A14 /* PBXContainerItemProxy */ = {
+		88925EE7D54527D4DA347918825E1414 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
 			remoteInfo = KeychainSwift;
 		};
-		65B6F0D5E1D7DCE087CDF7ABC6328031 /* PBXContainerItemProxy */ = {
+		895E9DCE0CF2423DB8AD64DA8A9FD9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		BA530D350551967CDEDCA8805FA0180C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 10F1357926C75B4E97533881F4C300B7;
 			remoteInfo = NSLogger;
 		};
-		CCA559BA13007F869E3C24CDBF61D125 /* PBXContainerItemProxy */ = {
+		BE97E1DED39E386E4F25EEBC20913545 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
-			remoteInfo = KeychainSwift;
+			remoteGlobalIDString = B4652B2924FE3B941944F77DA8477ABD;
+			remoteInfo = SPAlert;
+		};
+		CB5DF6587D14F16C137BC7DB05A42D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		CE885747168A7DDA8840911A76C30042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4652B2924FE3B941944F77DA8477ABD;
+			remoteInfo = SPAlert;
+		};
+		D41178C0A76A5DD48D0D693060971BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997BD0C6C6E9A7EF79DD4AA760E75C8E;
+			remoteInfo = TPKeyboardAvoidingSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02A37947CE4199C829112489D2CC15BE /* TPKeyboardAvoidingSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPKeyboardAvoidingSwift.framework; path = TPKeyboardAvoidingSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02BF4FD4EF31B416DFA2249CE813AAFF /* KeychainSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.release.xcconfig; sourceTree = "<group>"; };
-		0AAA21C47492FF7C8A9A1E2180314D21 /* KeychainSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.debug.xcconfig; sourceTree = "<group>"; };
-		0E495FB7E7E63361DDA212C5A9A188E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		119FD216CA44623350C58835E4933B67 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
+		035219FD6001FD4F03DCBDF16CC9881E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		06E2F2B8C386FEF1F896309A5CC104F7 /* NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSLogger.modulemap; sourceTree = "<group>"; };
+		0D9A2A6864E3E080208D71CCC669481B /* SPAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-prefix.pch"; sourceTree = "<group>"; };
+		0E168098F98A092C13A7E125224E5852 /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = Client/iOS/LoggerClient.h; sourceTree = "<group>"; };
+		1022A7F59C984D5651187AC2BCB343C9 /* NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-prefix.pch"; sourceTree = "<group>"; };
+		1394F37A1CC9240723605D7C1DC041B5 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		14E32E9D6870D08BC34B5508F087AAAF /* Pods_TrackMe_TrackMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrackMe_TrackMeUITests.framework; path = "Pods-TrackMe-TrackMeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1946A9F673CDC8936CB647D20BDACD61 /* NSLoggerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLoggerSwift.h; path = Client/iOS/NSLoggerSwift.h; sourceTree = "<group>"; };
-		1A3D9005F29707A5B1C072B00DCA3B26 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = Client/iOS/NSLogger.h; sourceTree = "<group>"; };
+		16FDD180944311254E88B96EB2283BAB /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		1EA1830FFB4A2B6167561B51485A7D87 /* Pods-TrackMeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackMeTests.modulemap"; sourceTree = "<group>"; };
+		20EDE97C4F6BDE848E5B9A3BDC4E77F7 /* SPAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-umbrella.h"; sourceTree = "<group>"; };
 		231D6AACF42B9C94A531DDEFE0FD01A1 /* Pods-TrackMe-TrackMeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackMe-TrackMeUITests.modulemap"; sourceTree = "<group>"; };
-		26FD7DB47473385269B929C6B4A60220 /* TPKeyboardAvoidingSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TPKeyboardAvoidingSwift.swift; path = TPKeyboardAvoidingSwift/Classes/TPKeyboardAvoidingSwift.swift; sourceTree = "<group>"; };
+		25DB2D85520B5CB60D00E2B2198AAD69 /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = Client/iOS/LoggerClient.m; sourceTree = "<group>"; };
 		2731305660C27B5FD46179537E890324 /* Pods-TrackMe-TrackMeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackMe-TrackMeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2746076119322C355751E4F791F84BA4 /* Pods-TrackMe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackMe-acknowledgements.plist"; sourceTree = "<group>"; };
+		278DBDD6BC2466AE911EDABE41099795 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
 		2B0A002F97E23FDABBAE0DEB2218E54F /* Pods-TrackMe-TrackMeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrackMe-TrackMeUITests-frameworks.sh"; sourceTree = "<group>"; };
 		331858B6ADBD68E13196458B3D0A52C3 /* Pods-TrackMe-TrackMeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackMe-TrackMeUITests-umbrella.h"; sourceTree = "<group>"; };
+		33A2D962F3571B457B5195BFE0027B24 /* SPAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPAlert.modulemap; sourceTree = "<group>"; };
+		3421DFC5FC340A57779C8E6E96C914E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		39BC92DCD641BA2825E23409C48AE24B /* NSLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.debug.xcconfig; sourceTree = "<group>"; };
 		39D8662A983CD4978544FC801AD9CE16 /* Pods-TrackMe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackMe-dummy.m"; sourceTree = "<group>"; };
+		3D8E6B124265222F48CDBD32BE83BF14 /* NSLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.release.xcconfig; sourceTree = "<group>"; };
 		3F7FB4E2D2B78085E3CE7671E2E7B1C0 /* Pods-TrackMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackMe.release.xcconfig"; sourceTree = "<group>"; };
 		3FD48C2485CFFCF919F6026E55506132 /* Pods-TrackMe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackMe-acknowledgements.markdown"; sourceTree = "<group>"; };
-		401F741324B3B78C2474F4BFBF54D364 /* NSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NSLogger.modulemap; sourceTree = "<group>"; };
+		3FF03697F2F6ECEA79E88CC251550568 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		415DD810E463ED30B927C25789E9161E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		422FB203D1143D68466BB0384B266135 /* Pods_TrackMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrackMeTests.framework; path = "Pods-TrackMeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		458F96556230CCF82CF08C0E53839A59 /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = Client/iOS/LoggerCommon.h; sourceTree = "<group>"; };
 		45E6A68F9C09142C74E7B7E38BE91280 /* Pods-TrackMeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackMeTests-Info.plist"; sourceTree = "<group>"; };
-		4C7A01695392987C8AFC0818E4BC1780 /* TPKeyboardAvoidingSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoidingSwift.release.xcconfig; sourceTree = "<group>"; };
+		49F9E45A9E4F6CF2F932560BADF763BF /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		4A941F70B3B193D699757C0C4C844F80 /* NSLoggerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLoggerSwift.h; path = Client/iOS/NSLoggerSwift.h; sourceTree = "<group>"; };
 		4D32DEAEDF00E45B190C890559F7A2C8 /* Pods_TrackMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrackMe.framework; path = "Pods-TrackMe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC19FFBA64F01C84C070B59BB714CD2 /* Pods-TrackMe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrackMe.modulemap"; sourceTree = "<group>"; };
-		5018F2EDBCD0761B3AFBC2DE7D39FCC6 /* LoggerCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = Client/iOS/LoggerCommon.h; sourceTree = "<group>"; };
-		53F188FE99BA7A3526F2FEA765BB0547 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		4F65BA8DF3020B354770A8EDA0E79670 /* TPKeyboardAvoidingSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPKeyboardAvoidingSwift.modulemap; sourceTree = "<group>"; };
+		5337154657A1E6DB277DAFE979B0EB96 /* TPKeyboardAvoidingSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoidingSwift-umbrella.h"; sourceTree = "<group>"; };
 		55178EE20B0D1C73FECDF18A3B45C4A4 /* NSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSLogger.framework; path = NSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59B28E990B74D2C3D806310F0ABD5E00 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
-		5BC673FC074721783BAF3E5045DC4766 /* NSLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSLogger-Info.plist"; sourceTree = "<group>"; };
+		56DBCF9D93A2E3ABA2AE12E9E5BE269C /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		588075A3089684DA5871FA8E50F3A970 /* NSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogger.swift; path = Client/iOS/NSLogger.swift; sourceTree = "<group>"; };
+		5909B7212382C0E924A44A94CDA6A6EE /* TPKeyboardAvoidingSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoidingSwift.release.xcconfig; sourceTree = "<group>"; };
+		5C8625AE0E49D2BDD0D98ECC4213C58E /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		64DAF732741780ABCCD19164BA53B7E0 /* Pods-TrackMe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackMe-umbrella.h"; sourceTree = "<group>"; };
-		66F24259CDEF76FEABBACFBEB889A624 /* NSLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.debug.xcconfig; sourceTree = "<group>"; };
 		6974F0B1831793A619063A45D00E6D2C /* Pods-TrackMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackMe.debug.xcconfig"; sourceTree = "<group>"; };
+		6AFCEA11848A77D9CCC332E80806CCAF /* SPAlertLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertLayout.swift; path = Sources/SPAlert/Models/SPAlertLayout.swift; sourceTree = "<group>"; };
+		6BDFF763BE8E35C4590AF73EA0A6D301 /* TPKeyboardAvoidingSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoidingSwift-dummy.m"; sourceTree = "<group>"; };
+		6F5DF3726CC1B99D14D6041FFBA12504 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		700410DB3BFBA118558E34DC61105630 /* Pods-TrackMeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackMeTests-dummy.m"; sourceTree = "<group>"; };
+		7125EF3E2A28E576D57D38039B7D3026 /* KeychainSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.release.xcconfig; sourceTree = "<group>"; };
+		712EDC14C7F3D5808958346F50831E77 /* SPAlertIconErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconErrorView.swift; path = Sources/SPAlert/Icons/SPAlertIconErrorView.swift; sourceTree = "<group>"; };
 		74AE7DCD03098DC97517E0DB856149B4 /* Pods-TrackMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		7A7DDC04A3C2E490E0795B615C59B7B6 /* Pods-TrackMe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackMe-Info.plist"; sourceTree = "<group>"; };
-		7EFFD78B2086082A11D4455F00A37763 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		7D06D535BA04405486D0686D9FE9AD16 /* SPAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlert.swift; path = Sources/SPAlert/SPAlert.swift; sourceTree = "<group>"; };
+		7F5063AA26AD4E5D3CF9FE506525BB58 /* SPAlertIconPreset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconPreset.swift; path = Sources/SPAlert/SPAlertIconPreset.swift; sourceTree = "<group>"; };
+		7FD9CE596C48500370B3216A063FB45A /* TPKeyboardAvoidingSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPKeyboardAvoidingSwift-Info.plist"; sourceTree = "<group>"; };
 		80A5EC54BBC4802D0178B22EB2A5B610 /* Pods-TrackMeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrackMeTests-umbrella.h"; sourceTree = "<group>"; };
-		828104985AE8A91C41E9B698364DD74F /* LoggerClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = Client/iOS/LoggerClient.m; sourceTree = "<group>"; };
-		8D94C076A57BC867A6AB23E3B707DBA7 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
-		91C6867BC72639BFDCD460CAE39B60A4 /* TPKeyboardAvoidingSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoidingSwift-umbrella.h"; sourceTree = "<group>"; };
-		9C40176BF714A35463E741870EBAB251 /* NSLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSLogger.release.xcconfig; sourceTree = "<group>"; };
+		81FBF5805BDABD2D7EB61D164F1AF259 /* SPAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.release.xcconfig; sourceTree = "<group>"; };
+		8948F74D873B56D82D51C34036589C07 /* TPKeyboardAvoidingSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoidingSwift.debug.xcconfig; sourceTree = "<group>"; };
+		8AB2796F963CB27B6423E25F5BA87407 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0E5CC208C660AC71495142F7AF17BA /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		994651601CD97862BFC5C0B4D0072CDC /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1E668852A32A187E57B74A71BB9E9B5 /* TPKeyboardAvoidingSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoidingSwift-prefix.pch"; sourceTree = "<group>"; };
-		A211CA4B03D2EC384F6E0A1E7D5370E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A284EF1771F9DD4038EDA1E5AE3E0F3D /* Pods-TrackMe-TrackMeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrackMe-TrackMeUITests-dummy.m"; sourceTree = "<group>"; };
+		A398B543B00C4A3688BB60F8F60E89DD /* SPAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertView.swift; path = Sources/SPAlert/SPAlertView.swift; sourceTree = "<group>"; };
+		A436731840A556F87A1F1AB24A29448D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A4AB9F9B27AFAB9C84F5DC22E5F8F40B /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
 		A5C0450535F8FE1D8404CC68902DD23A /* Pods-TrackMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackMeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A6EC2D42E945D55AF761ED1AB22367E8 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
-		AD8A5BA1F47E728C01AA962C6F61E96E /* TPKeyboardAvoidingSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoidingSwift-dummy.m"; sourceTree = "<group>"; };
+		AAF323387002C312EEA255E1D432D480 /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-umbrella.h"; sourceTree = "<group>"; };
+		AE5F23B19473460F715FDB843ECFDA61 /* NSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSLogger.h; path = Client/iOS/NSLogger.h; sourceTree = "<group>"; };
+		B3B119A247C26C17743C2ADB797CDA2E /* TPKeyboardAvoidingSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoidingSwift-prefix.pch"; sourceTree = "<group>"; };
+		B8D2E121ADDA6E0FB97E8FF97B86ABBC /* SPAlertHaptic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertHaptic.swift; path = Sources/SPAlert/Services/SPAlertHaptic.swift; sourceTree = "<group>"; };
 		BA05F69C14666EDEFB4E4AB50F94A2FC /* Pods-TrackMe-TrackMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackMe-TrackMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE629661A28417489F63DBC74196BBD6 /* SPAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPAlert.framework; path = SPAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C3B37B97A7FC5AF729E15CA2573F352D /* Pods-TrackMe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrackMe-frameworks.sh"; sourceTree = "<group>"; };
-		C3D2187CD4F9A1BA27E6758816202D97 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		C63FCDD4A341704F23F446B311AE5C3C /* SPAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.debug.xcconfig; sourceTree = "<group>"; };
+		CA0D6915ED809D6175CEC64491DC83A1 /* SPAlertIconHeartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconHeartView.swift; path = Sources/SPAlert/Icons/SPAlertIconHeartView.swift; sourceTree = "<group>"; };
+		CAA7A978E964B18AC6DB73B079970561 /* SPAlertIconDoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDoneView.swift; path = Sources/SPAlert/Icons/SPAlertIconDoneView.swift; sourceTree = "<group>"; };
 		CABAC2737E36A286CBD9705343843C1F /* Pods-TrackMe-TrackMeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackMe-TrackMeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CD0C2369E88B583445BFD018A0686AE4 /* NSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-umbrella.h"; sourceTree = "<group>"; };
-		D0AB525FC7544FFA3A615482AF7DAD95 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		D19FC847BDD15AB47AE6BD25AFEC38CE /* NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLogger-dummy.m"; sourceTree = "<group>"; };
+		CB47C4F5955116909F9C2759B9F152E3 /* NSLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NSLogger-Info.plist"; sourceTree = "<group>"; };
 		D1A06A348917D13C5B2D05EFEC23746F /* Pods-TrackMe-TrackMeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackMe-TrackMeUITests-Info.plist"; sourceTree = "<group>"; };
-		D4D77A3C3F77B46D45EC48A7DB744838 /* NSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLogger-prefix.pch"; sourceTree = "<group>"; };
-		DBE279E413D25C755AF352703964F606 /* LoggerClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = Client/iOS/LoggerClient.h; sourceTree = "<group>"; };
+		D87C4A7FB8340E54F6530BB85E0CA4BC /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		E0DC256C0AE599A94733A8D576AA72B7 /* Pods-TrackMeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrackMeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4201FCD46E0EC544493DC7D528A9CDD /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
-		E4431F6057EF8FD81357F36F94459F7C /* TPKeyboardAvoidingSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoidingSwift.debug.xcconfig; sourceTree = "<group>"; };
-		EB77EF1D78D27354020FF66F64FEF2BD /* NSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogger.swift; path = Client/iOS/NSLogger.swift; sourceTree = "<group>"; };
+		E2ACEA4085123A637671626BE1B59DEE /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E45CD23287FDAAB252D4E037FC192585 /* KeychainSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.debug.xcconfig; sourceTree = "<group>"; };
+		E6F97D3535D93AEC8ABEC5F2D792512D /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		E7C68E01C50BD26C882158EA30A21A1C /* TPKeyboardAvoidingSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TPKeyboardAvoidingSwift.swift; path = TPKeyboardAvoidingSwift/Classes/TPKeyboardAvoidingSwift.swift; sourceTree = "<group>"; };
+		E89C1BDC7EBC0B61E14B2ADE8A0EDF27 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		EF72AC74D5E5AABA753CAD1F94A7B5A7 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
 		EFD8B4E1BA7143C2FEE02FB84B416AA7 /* Pods-TrackMe-TrackMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrackMe-TrackMeUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F0E2B6C83384E063749EA6943FEC883D /* TPKeyboardAvoidingSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPKeyboardAvoidingSwift.modulemap; sourceTree = "<group>"; };
-		F6A139D1B045801EED99C756DEC92BBF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		F89E4EA6D30AF1E122DC4BDE8E25E967 /* TPKeyboardAvoidingSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPKeyboardAvoidingSwift-Info.plist"; sourceTree = "<group>"; };
+		F18F24663D2CE0C00458599FA6B8E923 /* SPAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPAlert-dummy.m"; sourceTree = "<group>"; };
+		F3381233317C13B5117D0B0B75015CE6 /* SPAlertIconAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAnimatable.swift; path = Sources/SPAlert/Models/SPAlertIconAnimatable.swift; sourceTree = "<group>"; };
+		F45074E140660FB8EC62F3ED2FFE502D /* SPAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPAlert-Info.plist"; sourceTree = "<group>"; };
+		F832B328FAC15DC4FA9597C2748F47BF /* NSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLogger-dummy.m"; sourceTree = "<group>"; };
 		FAD75F0D68E371CDE7F6302DFA8B286F /* Pods-TrackMeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrackMeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB3E58BD51043DD313790FEC44420EB7 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		040DAD1316F00711691838A2A08DDAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5E430FBFED8DBB216B5912E74FB854 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0913C42DD777C8CC8C5746505FB37382 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,6 +256,16 @@
 				A8C1401167A065B1DE71BBE097980944 /* Foundation.framework in Frameworks */,
 				A8ECC633A5189AD2CCF533E0509F02C1 /* SystemConfiguration.framework in Frameworks */,
 				C549733BB6C062DA7E42597D6B2B98D7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7596519E375DA27F6E7D05D440757055 /* CoreGraphics.framework in Frameworks */,
+				AC1B5B34F7456E723EC031A496585471 /* Foundation.framework in Frameworks */,
+				F612969E69DE5F072AD96720641B1184 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,19 +285,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97531AF7B72C5A08C6EBC590928CDFF4 /* Frameworks */ = {
+		8BA9AE28CB7D2A8CB5FB4519E2A23461 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E5FD5CCBC40EFF02CFF47BD7687549 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		982BCBE986C8AE9A0AF1B93A9D48AFD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78765156750A5FA223FA2BECDFAC1750 /* Foundation.framework in Frameworks */,
+				03D6158DD18C87BE5E65C85AA6F002DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +301,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E78EA4312C7EE142B97D0BC6F79E0ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933CDC3C1B833CBD52124B972624C692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094F94F558A8ABF6510C47B89C15B8C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DBCF9D93A2E3ABA2AE12E9E5BE269C /* KeychainSwift.modulemap */,
+				E89C1BDC7EBC0B61E14B2ADE8A0EDF27 /* KeychainSwift-dummy.m */,
+				A4AB9F9B27AFAB9C84F5DC22E5F8F40B /* KeychainSwift-Info.plist */,
+				278DBDD6BC2466AE911EDABE41099795 /* KeychainSwift-prefix.pch */,
+				FB3E58BD51043DD313790FEC44420EB7 /* KeychainSwift-umbrella.h */,
+				E45CD23287FDAAB252D4E037FC192585 /* KeychainSwift.debug.xcconfig */,
+				7125EF3E2A28E576D57D38039B7D3026 /* KeychainSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		0EC0F05BA765F59A3DDE3EFE23B0CBBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A2D962F3571B457B5195BFE0027B24 /* SPAlert.modulemap */,
+				F18F24663D2CE0C00458599FA6B8E923 /* SPAlert-dummy.m */,
+				F45074E140660FB8EC62F3ED2FFE502D /* SPAlert-Info.plist */,
+				0D9A2A6864E3E080208D71CCC669481B /* SPAlert-prefix.pch */,
+				20EDE97C4F6BDE848E5B9A3BDC4E77F7 /* SPAlert-umbrella.h */,
+				C63FCDD4A341704F23F446B311AE5C3C /* SPAlert.debug.xcconfig */,
+				81FBF5805BDABD2D7EB61D164F1AF259 /* SPAlert.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SPAlert";
+			sourceTree = "<group>";
+		};
+		1E481EDC871F2A4A295E5A42A5E2E6EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD28A83C4DE6726E3518389C08B24447 /* KeychainSwift */,
+				69E95BCF7BD97A6C308881BD7B9A5F08 /* MBProgressHUD */,
+				F4E53E1FCB4C297AA0A5C53D868AF060 /* NSLogger */,
+				9BD001D0EE5095CABEFAADE457219FB4 /* SPAlert */,
+				6DF358D102B1AAA0E0E4BBB06E6377DC /* TPKeyboardAvoidingSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		21EE0E56A799F7F40AA5CBA97675F927 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06E2F2B8C386FEF1F896309A5CC104F7 /* NSLogger.modulemap */,
+				F832B328FAC15DC4FA9597C2748F47BF /* NSLogger-dummy.m */,
+				CB47C4F5955116909F9C2759B9F152E3 /* NSLogger-Info.plist */,
+				1022A7F59C984D5651187AC2BCB343C9 /* NSLogger-prefix.pch */,
+				AAF323387002C312EEA255E1D432D480 /* NSLogger-umbrella.h */,
+				39BC92DCD641BA2825E23409C48AE24B /* NSLogger.debug.xcconfig */,
+				3D8E6B124265222F48CDBD32BE83BF14 /* NSLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSLogger";
+			sourceTree = "<group>";
+		};
 		2F2D38041AB4A45715ADFF075CD54540 /* Pods-TrackMe */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,15 +396,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		381D5CF3A60865AE1EBE5F736D2E6C8C /* iOS */ = {
+		4187993F890DCEF4A070BE1293028D20 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D0AB525FC7544FFA3A615482AF7DAD95 /* CFNetwork.framework */,
-				A211CA4B03D2EC384F6E0A1E7D5370E5 /* Foundation.framework */,
-				F6A139D1B045801EED99C756DEC92BBF /* SystemConfiguration.framework */,
-				0E495FB7E7E63361DDA212C5A9A188E6 /* UIKit.framework */,
+				4F65BA8DF3020B354770A8EDA0E79670 /* TPKeyboardAvoidingSwift.modulemap */,
+				6BDFF763BE8E35C4590AF73EA0A6D301 /* TPKeyboardAvoidingSwift-dummy.m */,
+				7FD9CE596C48500370B3216A063FB45A /* TPKeyboardAvoidingSwift-Info.plist */,
+				B3B119A247C26C17743C2ADB797CDA2E /* TPKeyboardAvoidingSwift-prefix.pch */,
+				5337154657A1E6DB277DAFE979B0EB96 /* TPKeyboardAvoidingSwift-umbrella.h */,
+				8948F74D873B56D82D51C34036589C07 /* TPKeyboardAvoidingSwift.debug.xcconfig */,
+				5909B7212382C0E924A44A94CDA6A6EE /* TPKeyboardAvoidingSwift.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoidingSwift";
 			sourceTree = "<group>";
 		};
 		52306E39DADAAA9FE9BE9D1CDA7C4853 /* Pods-TrackMe-TrackMeUITests */ = {
@@ -273,144 +428,148 @@
 			path = "Target Support Files/Pods-TrackMe-TrackMeUITests";
 			sourceTree = "<group>";
 		};
-		66871EA44F216C6627E00F7B8C640A2C /* Support Files */ = {
+		54B51C973D91E1B280C4B4A44F8511A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53F188FE99BA7A3526F2FEA765BB0547 /* KeychainSwift.modulemap */,
-				7EFFD78B2086082A11D4455F00A37763 /* KeychainSwift-dummy.m */,
-				119FD216CA44623350C58835E4933B67 /* KeychainSwift-Info.plist */,
-				A6EC2D42E945D55AF761ED1AB22367E8 /* KeychainSwift-prefix.pch */,
-				C3D2187CD4F9A1BA27E6758816202D97 /* KeychainSwift-umbrella.h */,
-				0AAA21C47492FF7C8A9A1E2180314D21 /* KeychainSwift.debug.xcconfig */,
-				02BF4FD4EF31B416DFA2249CE813AAFF /* KeychainSwift.release.xcconfig */,
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				55178EE20B0D1C73FECDF18A3B45C4A4 /* NSLogger.framework */,
+				4D32DEAEDF00E45B190C890559F7A2C8 /* Pods_TrackMe.framework */,
+				14E32E9D6870D08BC34B5508F087AAAF /* Pods_TrackMe_TrackMeUITests.framework */,
+				422FB203D1143D68466BB0384B266135 /* Pods_TrackMeTests.framework */,
+				BE629661A28417489F63DBC74196BBD6 /* SPAlert.framework */,
+				02A37947CE4199C829112489D2CC15BE /* TPKeyboardAvoidingSwift.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/KeychainSwift";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		8EDAC4E5A06314403664FC808E52AE24 /* TPKeyboardAvoidingSwift */ = {
+		69E95BCF7BD97A6C308881BD7B9A5F08 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				26FD7DB47473385269B929C6B4A60220 /* TPKeyboardAvoidingSwift.swift */,
-				B24EF92BF24C039C6648E1ABF2C0D0DC /* Support Files */,
+				E2ACEA4085123A637671626BE1B59DEE /* MBProgressHUD.h */,
+				16FDD180944311254E88B96EB2283BAB /* MBProgressHUD.m */,
+				87C963B96DF44DE4948CBF3E1B095EA3 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6DF358D102B1AAA0E0E4BBB06E6377DC /* TPKeyboardAvoidingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E7C68E01C50BD26C882158EA30A21A1C /* TPKeyboardAvoidingSwift.swift */,
+				4187993F890DCEF4A070BE1293028D20 /* Support Files */,
 			);
 			name = TPKeyboardAvoidingSwift;
 			path = TPKeyboardAvoidingSwift;
 			sourceTree = "<group>";
 		};
-		98D74DD083176D88903135719FE3862B /* Support Files */ = {
+		82297EAE93C8E809298B10258AFB66E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				401F741324B3B78C2474F4BFBF54D364 /* NSLogger.modulemap */,
-				D19FC847BDD15AB47AE6BD25AFEC38CE /* NSLogger-dummy.m */,
-				5BC673FC074721783BAF3E5045DC4766 /* NSLogger-Info.plist */,
-				D4D77A3C3F77B46D45EC48A7DB744838 /* NSLogger-prefix.pch */,
-				CD0C2369E88B583445BFD018A0686AE4 /* NSLogger-umbrella.h */,
-				66F24259CDEF76FEABBACFBEB889A624 /* NSLogger.debug.xcconfig */,
-				9C40176BF714A35463E741870EBAB251 /* NSLogger.release.xcconfig */,
+				035219FD6001FD4F03DCBDF16CC9881E /* CFNetwork.framework */,
+				3FF03697F2F6ECEA79E88CC251550568 /* CoreGraphics.framework */,
+				C1D55F1E408F42BA3070E80D22ACF759 /* Foundation.framework */,
+				A436731840A556F87A1F1AB24A29448D /* QuartzCore.framework */,
+				415DD810E463ED30B927C25789E9161E /* SystemConfiguration.framework */,
+				3421DFC5FC340A57779C8E6E96C914E1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87C963B96DF44DE4948CBF3E1B095EA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F5DF3726CC1B99D14D6041FFBA12504 /* MBProgressHUD.modulemap */,
+				1394F37A1CC9240723605D7C1DC041B5 /* MBProgressHUD-dummy.m */,
+				8D0E5CC208C660AC71495142F7AF17BA /* MBProgressHUD-Info.plist */,
+				D87C4A7FB8340E54F6530BB85E0CA4BC /* MBProgressHUD-prefix.pch */,
+				8AB2796F963CB27B6423E25F5BA87407 /* MBProgressHUD-umbrella.h */,
+				E6F97D3535D93AEC8ABEC5F2D792512D /* MBProgressHUD.debug.xcconfig */,
+				5C8625AE0E49D2BDD0D98ECC4213C58E /* MBProgressHUD.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/NSLogger";
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		AFD6841B7C2AA3CD150C4D52F4F55410 /* ObjC */ = {
+		9BD001D0EE5095CABEFAADE457219FB4 /* SPAlert */ = {
 			isa = PBXGroup;
 			children = (
-				DBE279E413D25C755AF352703964F606 /* LoggerClient.h */,
-				828104985AE8A91C41E9B698364DD74F /* LoggerClient.m */,
-				5018F2EDBCD0761B3AFBC2DE7D39FCC6 /* LoggerCommon.h */,
-				1A3D9005F29707A5B1C072B00DCA3B26 /* NSLogger.h */,
-				1946A9F673CDC8936CB647D20BDACD61 /* NSLoggerSwift.h */,
+				7D06D535BA04405486D0686D9FE9AD16 /* SPAlert.swift */,
+				B8D2E121ADDA6E0FB97E8FF97B86ABBC /* SPAlertHaptic.swift */,
+				F3381233317C13B5117D0B0B75015CE6 /* SPAlertIconAnimatable.swift */,
+				CAA7A978E964B18AC6DB73B079970561 /* SPAlertIconDoneView.swift */,
+				712EDC14C7F3D5808958346F50831E77 /* SPAlertIconErrorView.swift */,
+				CA0D6915ED809D6175CEC64491DC83A1 /* SPAlertIconHeartView.swift */,
+				7F5063AA26AD4E5D3CF9FE506525BB58 /* SPAlertIconPreset.swift */,
+				6AFCEA11848A77D9CCC332E80806CCAF /* SPAlertLayout.swift */,
+				A398B543B00C4A3688BB60F8F60E89DD /* SPAlertView.swift */,
+				0EC0F05BA765F59A3DDE3EFE23B0CBBC /* Support Files */,
 			);
-			name = ObjC;
+			name = SPAlert;
+			path = SPAlert;
 			sourceTree = "<group>";
 		};
-		B24EF92BF24C039C6648E1ABF2C0D0DC /* Support Files */ = {
+		AD28A83C4DE6726E3518389C08B24447 /* KeychainSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F0E2B6C83384E063749EA6943FEC883D /* TPKeyboardAvoidingSwift.modulemap */,
-				AD8A5BA1F47E728C01AA962C6F61E96E /* TPKeyboardAvoidingSwift-dummy.m */,
-				F89E4EA6D30AF1E122DC4BDE8E25E967 /* TPKeyboardAvoidingSwift-Info.plist */,
-				A1E668852A32A187E57B74A71BB9E9B5 /* TPKeyboardAvoidingSwift-prefix.pch */,
-				91C6867BC72639BFDCD460CAE39B60A4 /* TPKeyboardAvoidingSwift-umbrella.h */,
-				E4431F6057EF8FD81357F36F94459F7C /* TPKeyboardAvoidingSwift.debug.xcconfig */,
-				4C7A01695392987C8AFC0818E4BC1780 /* TPKeyboardAvoidingSwift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TPKeyboardAvoidingSwift";
-			sourceTree = "<group>";
-		};
-		B3C6B2C8123ADFF3C4DB4DA69E7F6225 /* KeychainSwift */ = {
-			isa = PBXGroup;
-			children = (
-				59B28E990B74D2C3D806310F0ABD5E00 /* KeychainSwift.swift */,
-				8D94C076A57BC867A6AB23E3B707DBA7 /* KeychainSwiftAccessOptions.swift */,
-				E4201FCD46E0EC544493DC7D528A9CDD /* TegKeychainConstants.swift */,
-				66871EA44F216C6627E00F7B8C640A2C /* Support Files */,
+				994651601CD97862BFC5C0B4D0072CDC /* KeychainSwift.swift */,
+				49F9E45A9E4F6CF2F932560BADF763BF /* KeychainSwiftAccessOptions.swift */,
+				EF72AC74D5E5AABA753CAD1F94A7B5A7 /* TegKeychainConstants.swift */,
+				094F94F558A8ABF6510C47B89C15B8C6 /* Support Files */,
 			);
 			name = KeychainSwift;
 			path = KeychainSwift;
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				381D5CF3A60865AE1EBE5F736D2E6C8C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C3E65E3B77998E9840B01AB796498D0A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */,
-				55178EE20B0D1C73FECDF18A3B45C4A4 /* NSLogger.framework */,
-				4D32DEAEDF00E45B190C890559F7A2C8 /* Pods_TrackMe.framework */,
-				14E32E9D6870D08BC34B5508F087AAAF /* Pods_TrackMe_TrackMeUITests.framework */,
-				422FB203D1143D68466BB0384B266135 /* Pods_TrackMeTests.framework */,
-				02A37947CE4199C829112489D2CC15BE /* TPKeyboardAvoidingSwift.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				F24483C7CB0B4F1B8281CF8C3DABEDAE /* Pods */,
-				C3E65E3B77998E9840B01AB796498D0A /* Products */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				1E481EDC871F2A4A295E5A42A5E2E6EE /* Pods */,
+				54B51C973D91E1B280C4B4A44F8511A6 /* Products */,
 				313E15509965EE0B70344CAAE919FA8E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D98D31E018B2B9A4B1CC07FFCF708CA8 /* Swift */ = {
+		D21D9E237AC9C4FB0F5D641DE739B2EB /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				EB77EF1D78D27354020FF66F64FEF2BD /* NSLogger.swift */,
+				588075A3089684DA5871FA8E50F3A970 /* NSLogger.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
 		};
-		EB52A80C105AA50D3CC53B1C11FB8199 /* NSLogger */ = {
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFD6841B7C2AA3CD150C4D52F4F55410 /* ObjC */,
-				98D74DD083176D88903135719FE3862B /* Support Files */,
-				D98D31E018B2B9A4B1CC07FFCF708CA8 /* Swift */,
+				82297EAE93C8E809298B10258AFB66E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7EFB23CC40897FE5D99175E6ADC73CF /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				0E168098F98A092C13A7E125224E5852 /* LoggerClient.h */,
+				25DB2D85520B5CB60D00E2B2198AAD69 /* LoggerClient.m */,
+				458F96556230CCF82CF08C0E53839A59 /* LoggerCommon.h */,
+				AE5F23B19473460F715FDB843ECFDA61 /* NSLogger.h */,
+				4A941F70B3B193D699757C0C4C844F80 /* NSLoggerSwift.h */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		F4E53E1FCB4C297AA0A5C53D868AF060 /* NSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				D7EFB23CC40897FE5D99175E6ADC73CF /* ObjC */,
+				21EE0E56A799F7F40AA5CBA97675F927 /* Support Files */,
+				D21D9E237AC9C4FB0F5D641DE739B2EB /* Swift */,
 			);
 			name = NSLogger;
 			path = NSLogger;
-			sourceTree = "<group>";
-		};
-		F24483C7CB0B4F1B8281CF8C3DABEDAE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B3C6B2C8123ADFF3C4DB4DA69E7F6225 /* KeychainSwift */,
-				EB52A80C105AA50D3CC53B1C11FB8199 /* NSLogger */,
-				8EDAC4E5A06314403664FC808E52AE24 /* TPKeyboardAvoidingSwift */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		F76FC14542B7C4DF7B3CD55F0E1E7CDF /* Pods-TrackMeTests */ = {
@@ -440,19 +599,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DC518E1AD2B6DB582C24951EA92CFDD /* Headers */ = {
+		337E870D40FE6665587969125FEC11F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ADE7F56FA7B9E814B256E9E9FC01F2F /* Pods-TrackMe-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		389F209E69B7AEA896A6D0EFB8DC9D53 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38CE5784D355469602D62AB788846382 /* Pods-TrackMe-TrackMeUITests-umbrella.h in Headers */,
+				710551ED7EE50648813759061625806A /* Pods-TrackMe-TrackMeUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,11 +627,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BE2DEBA442AF63FEA06A69B46AEB75A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30825F9E57DF4E095F0F3928E59C7758 /* SPAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */,
+				EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97BD77ADDCAB6FA6CF7529B5308B0918 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C80359AD3319D3B56ACD0E69031B11F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F5C18A53E9F6380BD5CCB96947A671 /* Pods-TrackMe-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,19 +701,21 @@
 		};
 		2694F810B705424C98EA0E9804FB6CC7 /* Pods-TrackMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEC4E067B3D84BC615A57EA8F543683D /* Build configuration list for PBXNativeTarget "Pods-TrackMe" */;
+			buildConfigurationList = 900C236E8FB91B881E9EE70453D08EF2 /* Build configuration list for PBXNativeTarget "Pods-TrackMe" */;
 			buildPhases = (
-				2DC518E1AD2B6DB582C24951EA92CFDD /* Headers */,
-				C4772C3223830E81EAB3B0F8FD220423 /* Sources */,
-				97531AF7B72C5A08C6EBC590928CDFF4 /* Frameworks */,
-				5C0E44B9E34E720F512D928983CF0207 /* Resources */,
+				C80359AD3319D3B56ACD0E69031B11F1 /* Headers */,
+				0E2D2E18067F8F078107D0BAD1F66965 /* Sources */,
+				E78EA4312C7EE142B97D0BC6F79E0ADD /* Frameworks */,
+				14ECDFAC14876B73CF09E22A9780AC93 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BDFDDD1754E9E3C6863AA99C9C2F91F1 /* PBXTargetDependency */,
-				2393A91B431C81C524A9E69EA077830D /* PBXTargetDependency */,
-				8C8168A919AC5888C0476087AB6C1167 /* PBXTargetDependency */,
+				7FC1B46946EFF1D21F7BDB1E8CCE4B5A /* PBXTargetDependency */,
+				55ABA91BC82DD2FEC30454946946FEC7 /* PBXTargetDependency */,
+				BC476A504128DB9102C5AB67D0012C10 /* PBXTargetDependency */,
+				E44807784A19E60D9755EDE296330165 /* PBXTargetDependency */,
+				03A5C021746072C5318A0DEDB85DF527 /* PBXTargetDependency */,
 			);
 			name = "Pods-TrackMe";
 			productName = "Pods-TrackMe";
@@ -556,7 +734,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0B1C45F9C0794A6FD1BC00901F5F01C2 /* PBXTargetDependency */,
+				64596231B69577B25F613BF0C2FD628D /* PBXTargetDependency */,
 			);
 			name = "Pods-TrackMeTests";
 			productName = "Pods-TrackMeTests";
@@ -565,23 +743,43 @@
 		};
 		6F796939F1523C28FC3A0E093CD81299 /* Pods-TrackMe-TrackMeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BCF74134B51E116FF118642FB66BE2E /* Build configuration list for PBXNativeTarget "Pods-TrackMe-TrackMeUITests" */;
+			buildConfigurationList = 29B6CF0166BE536E5AE9DD026D25BE5B /* Build configuration list for PBXNativeTarget "Pods-TrackMe-TrackMeUITests" */;
 			buildPhases = (
-				389F209E69B7AEA896A6D0EFB8DC9D53 /* Headers */,
-				609C1A8C3918D6BF0B00D46EAE94A592 /* Sources */,
-				982BCBE986C8AE9A0AF1B93A9D48AFD9 /* Frameworks */,
-				E0B211B31B893EBF3EA18314BACC5E4A /* Resources */,
+				337E870D40FE6665587969125FEC11F1 /* Headers */,
+				35A98F4166554915CB4B72BE3DE171AB /* Sources */,
+				040DAD1316F00711691838A2A08DDAB0 /* Frameworks */,
+				B38D78E1C7D87542209B9A103141FFB5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61E90842951747486ECDDD049181FE81 /* PBXTargetDependency */,
-				41FF769D9BC53CE1D8C9E7F5655C91F6 /* PBXTargetDependency */,
-				C566CD77E1154B78E684C685964CC316 /* PBXTargetDependency */,
+				C7C4525A5DB79CF693033EF8CAB7A416 /* PBXTargetDependency */,
+				A3A0053E368CBF905775B718EE809EC2 /* PBXTargetDependency */,
+				BC0865286B2BD7E39858CD044889099B /* PBXTargetDependency */,
+				0B549321B5E80702C62408AC88870FD3 /* PBXTargetDependency */,
+				E69037A541F8D5A3F104D9C06D9EF1D2 /* PBXTargetDependency */,
 			);
 			name = "Pods-TrackMe-TrackMeUITests";
 			productName = "Pods-TrackMe-TrackMeUITests";
 			productReference = 14E32E9D6870D08BC34B5508F087AAAF /* Pods_TrackMe_TrackMeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				8F0EBAB2761523F18BB73EB4DC5CBEC3 /* Headers */,
+				D2F84DC2E2DB3628B17B3841F2837477 /* Sources */,
+				1AA3C16B4B3AB40CA74BDDADEF5C143A /* Frameworks */,
+				435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		997BD0C6C6E9A7EF79DD4AA760E75C8E /* TPKeyboardAvoidingSwift */ = {
@@ -602,6 +800,24 @@
 			productReference = 02A37947CE4199C829112489D2CC15BE /* TPKeyboardAvoidingSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B4652B2924FE3B941944F77DA8477ABD /* SPAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B310034CAF0ACC7A42429F089258D1 /* Build configuration list for PBXNativeTarget "SPAlert" */;
+			buildPhases = (
+				7BE2DEBA442AF63FEA06A69B46AEB75A /* Headers */,
+				C8DE6344E329C01769B6B9571065E895 /* Sources */,
+				8BA9AE28CB7D2A8CB5FB4519E2A23461 /* Frameworks */,
+				DBD728D8502019601F067DDD8FB73052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPAlert;
+			productName = SPAlert;
+			productReference = BE629661A28417489F63DBC74196BBD6 /* SPAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -620,15 +836,17 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C3E65E3B77998E9840B01AB796498D0A /* Products */;
+			productRefGroup = 54B51C973D91E1B280C4B4A44F8511A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				10F1357926C75B4E97533881F4C300B7 /* NSLogger */,
 				2694F810B705424C98EA0E9804FB6CC7 /* Pods-TrackMe */,
 				6F796939F1523C28FC3A0E093CD81299 /* Pods-TrackMe-TrackMeUITests */,
 				4CD4081D899A7188B6DE792565129011 /* Pods-TrackMeTests */,
+				B4652B2924FE3B941944F77DA8477ABD /* SPAlert */,
 				997BD0C6C6E9A7EF79DD4AA760E75C8E /* TPKeyboardAvoidingSwift */,
 			);
 		};
@@ -642,6 +860,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14ECDFAC14876B73CF09E22A9780AC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29186A7FC9690C20BDE41949C4FFD3AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,7 +874,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C0E44B9E34E720F512D928983CF0207 /* Resources */ = {
+		435BF4D16B2F9CAB6E7F883F30E32B74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -670,7 +895,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0B211B31B893EBF3EA18314BACC5E4A /* Resources */ = {
+		B38D78E1C7D87542209B9A103141FFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD728D8502019601F067DDD8FB73052 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -680,11 +912,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		609C1A8C3918D6BF0B00D46EAE94A592 /* Sources */ = {
+		0E2D2E18067F8F078107D0BAD1F66965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268FB1B050849F4D876C9390D87E3969 /* Pods-TrackMe-TrackMeUITests-dummy.m in Sources */,
+				C5B086C794DBB56621EEF1C23BC31E00 /* Pods-TrackMe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A98F4166554915CB4B72BE3DE171AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894813A81B6575C84BED073331C76A64 /* Pods-TrackMe-TrackMeUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,11 +947,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4772C3223830E81EAB3B0F8FD220423 /* Sources */ = {
+		C8DE6344E329C01769B6B9571065E895 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDE5B179871A65581DE0E6192A96CA29 /* Pods-TrackMe-dummy.m in Sources */,
+				5F8C5665FEB194DA51EB48EE12F70A36 /* SPAlert-dummy.m in Sources */,
+				B6461FC455E76D6427B298A059694C5D /* SPAlert.swift in Sources */,
+				0F8EBAADA80C6AF2C62DAAC68A8FD8AB /* SPAlertHaptic.swift in Sources */,
+				603A44B0C00347070B5B2D9862663F70 /* SPAlertIconAnimatable.swift in Sources */,
+				570C57E2F7EB5A594868402D3C830391 /* SPAlertIconDoneView.swift in Sources */,
+				E710EAB54B8983AD48B1965D564ED8A3 /* SPAlertIconErrorView.swift in Sources */,
+				92D72E2B335A6BDD963963DB32EB976B /* SPAlertIconHeartView.swift in Sources */,
+				E547D1E609A0486FBC2C386A14C44B51 /* SPAlertIconPreset.swift in Sources */,
+				6DA116A3729AD06FE4965D7FFA9FE63B /* SPAlertLayout.swift in Sources */,
+				B6A307601C54492B96394E278F095E92 /* SPAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F84DC2E2DB3628B17B3841F2837477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */,
+				70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,54 +995,78 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B1C45F9C0794A6FD1BC00901F5F01C2 /* PBXTargetDependency */ = {
+		03A5C021746072C5318A0DEDB85DF527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoidingSwift;
+			target = 997BD0C6C6E9A7EF79DD4AA760E75C8E /* TPKeyboardAvoidingSwift */;
+			targetProxy = D41178C0A76A5DD48D0D693060971BED /* PBXContainerItemProxy */;
+		};
+		0B549321B5E80702C62408AC88870FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPAlert;
+			target = B4652B2924FE3B941944F77DA8477ABD /* SPAlert */;
+			targetProxy = BE97E1DED39E386E4F25EEBC20913545 /* PBXContainerItemProxy */;
+		};
+		55ABA91BC82DD2FEC30454946946FEC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 895E9DCE0CF2423DB8AD64DA8A9FD9CE /* PBXContainerItemProxy */;
+		};
+		64596231B69577B25F613BF0C2FD628D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TrackMe";
 			target = 2694F810B705424C98EA0E9804FB6CC7 /* Pods-TrackMe */;
-			targetProxy = 03A0E7357986EFFCE4E55EA31C84C11C /* PBXContainerItemProxy */;
+			targetProxy = 5F82C02C65E3AD8CD372DB51872000D9 /* PBXContainerItemProxy */;
 		};
-		2393A91B431C81C524A9E69EA077830D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NSLogger;
-			target = 10F1357926C75B4E97533881F4C300B7 /* NSLogger */;
-			targetProxy = 65B6F0D5E1D7DCE087CDF7ABC6328031 /* PBXContainerItemProxy */;
-		};
-		41FF769D9BC53CE1D8C9E7F5655C91F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NSLogger;
-			target = 10F1357926C75B4E97533881F4C300B7 /* NSLogger */;
-			targetProxy = 3E5A90C9C1ECCECF941C90DC536A9548 /* PBXContainerItemProxy */;
-		};
-		61E90842951747486ECDDD049181FE81 /* PBXTargetDependency */ = {
+		7FC1B46946EFF1D21F7BDB1E8CCE4B5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeychainSwift;
 			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
-			targetProxy = 644FDC6C7536AD64E81B62275F441A14 /* PBXContainerItemProxy */;
+			targetProxy = 88925EE7D54527D4DA347918825E1414 /* PBXContainerItemProxy */;
 		};
-		8C8168A919AC5888C0476087AB6C1167 /* PBXTargetDependency */ = {
+		A3A0053E368CBF905775B718EE809EC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TPKeyboardAvoidingSwift;
-			target = 997BD0C6C6E9A7EF79DD4AA760E75C8E /* TPKeyboardAvoidingSwift */;
-			targetProxy = 5820DDF318D14CF61ACCC8DFDE48CD2D /* PBXContainerItemProxy */;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = CB5DF6587D14F16C137BC7DB05A42D27 /* PBXContainerItemProxy */;
 		};
-		BDFDDD1754E9E3C6863AA99C9C2F91F1 /* PBXTargetDependency */ = {
+		BC0865286B2BD7E39858CD044889099B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSLogger;
+			target = 10F1357926C75B4E97533881F4C300B7 /* NSLogger */;
+			targetProxy = 223FEF015B84B24567E5ABC1259D0C64 /* PBXContainerItemProxy */;
+		};
+		BC476A504128DB9102C5AB67D0012C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSLogger;
+			target = 10F1357926C75B4E97533881F4C300B7 /* NSLogger */;
+			targetProxy = BA530D350551967CDEDCA8805FA0180C /* PBXContainerItemProxy */;
+		};
+		C7C4525A5DB79CF693033EF8CAB7A416 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeychainSwift;
 			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
-			targetProxy = CCA559BA13007F869E3C24CDBF61D125 /* PBXContainerItemProxy */;
+			targetProxy = 1D683CA8F45ACF49D7E2EBA40C51E905 /* PBXContainerItemProxy */;
 		};
-		C566CD77E1154B78E684C685964CC316 /* PBXTargetDependency */ = {
+		E44807784A19E60D9755EDE296330165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPAlert;
+			target = B4652B2924FE3B941944F77DA8477ABD /* SPAlert */;
+			targetProxy = CE885747168A7DDA8840911A76C30042 /* PBXContainerItemProxy */;
+		};
+		E69037A541F8D5A3F104D9C06D9EF1D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TPKeyboardAvoidingSwift;
 			target = 997BD0C6C6E9A7EF79DD4AA760E75C8E /* TPKeyboardAvoidingSwift */;
-			targetProxy = 41D8B99C27B9E4F052886A714C975EAE /* PBXContainerItemProxy */;
+			targetProxy = 805DA25F7820368EC0F571E0AD22D849 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		02F60724EE576D881DB51D418EC12279 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C7A01695392987C8AFC0818E4BC1780 /* TPKeyboardAvoidingSwift.release.xcconfig */;
+			baseConfigurationReference = 5909B7212382C0E924A44A94CDA6A6EE /* TPKeyboardAvoidingSwift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -818,9 +1100,46 @@
 			};
 			name = Release;
 		};
+		09A68577E433E3FD8F4729464A038C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA05F69C14666EDEFB4E4AB50F94A2FC /* Pods-TrackMe-TrackMeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrackMe-TrackMeUITests/Pods-TrackMe-TrackMeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrackMe-TrackMeUITests/Pods-TrackMe-TrackMeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		32356F15EAD0A845FAF707303A152B51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C40176BF714A35463E741870EBAB251 /* NSLogger.release.xcconfig */;
+			baseConfigurationReference = 3D8E6B124265222F48CDBD32BE83BF14 /* NSLogger.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -853,47 +1172,9 @@
 			};
 			name = Release;
 		};
-		3483ED2B2299FE3B6F988FB301DF5BA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFD8B4E1BA7143C2FEE02FB84B416AA7 /* Pods-TrackMe-TrackMeUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrackMe-TrackMeUITests/Pods-TrackMe-TrackMeUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrackMe-TrackMeUITests/Pods-TrackMe-TrackMeUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3790CA55E17BBFD6D273CDD16A313F36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4431F6057EF8FD81357F36F94459F7C /* TPKeyboardAvoidingSwift.debug.xcconfig */;
+			baseConfigurationReference = 8948F74D873B56D82D51C34036589C07 /* TPKeyboardAvoidingSwift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -925,6 +1206,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		44E9650532AA8FFA9E3D930CC6FCFCD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7FB4E2D2B78085E3CE7671E2E7B1C0 /* Pods-TrackMe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrackMe/Pods-TrackMe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrackMe/Pods-TrackMe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -992,9 +1311,47 @@
 			};
 			name = Debug;
 		};
+		536F72A80551FB13B25676ABA04B9863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD8B4E1BA7143C2FEE02FB84B416AA7 /* Pods-TrackMe-TrackMeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrackMe-TrackMeUITests/Pods-TrackMe-TrackMeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrackMe-TrackMeUITests/Pods-TrackMe-TrackMeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		593E0D9A581ECC7BB34AAD38EBF4854E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02BF4FD4EF31B416DFA2249CE813AAFF /* KeychainSwift.release.xcconfig */;
+			baseConfigurationReference = 7125EF3E2A28E576D57D38039B7D3026 /* KeychainSwift.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1029,7 +1386,7 @@
 		};
 		63051A5E9DE504F4E38528B4E55996DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AAA21C47492FF7C8A9A1E2180314D21 /* KeychainSwift.debug.xcconfig */;
+			baseConfigurationReference = E45CD23287FDAAB252D4E037FC192585 /* KeychainSwift.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1060,81 +1417,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		7142B01303A203DBC9D06BA4FEABD7EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6974F0B1831793A619063A45D00E6D2C /* Pods-TrackMe.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrackMe/Pods-TrackMe-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrackMe/Pods-TrackMe.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		87FD4F338E6C57F2709EC1570031E87C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F7FB4E2D2B78085E3CE7671E2E7B1C0 /* Pods-TrackMe.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrackMe/Pods-TrackMe-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrackMe/Pods-TrackMe.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1198,9 +1480,44 @@
 			};
 			name = Release;
 		};
+		93A2FF79E2EC721C724D10C8C2AF1B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8625AE0E49D2BDD0D98ECC4213C58E /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9B47E8A17BA78F9936D6DC4C3DA679A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66F24259CDEF76FEABBACFBEB889A624 /* NSLogger.debug.xcconfig */;
+			baseConfigurationReference = 39BC92DCD641BA2825E23409C48AE24B /* NSLogger.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1231,6 +1548,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		AB5913B5BBECE87C71250B290813DB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FBF5805BDABD2D7EB61D164F1AF259 /* SPAlert.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SPAlert/SPAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPAlert/SPAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SPAlert/SPAlert.modulemap";
+				PRODUCT_MODULE_NAME = SPAlert;
+				PRODUCT_NAME = SPAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		AF7A8259BCB6DA5A1CB354871CFF62E1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1270,11 +1623,44 @@
 			};
 			name = Release;
 		};
-		B9EC435AF9FD70869B4300BF92079A08 /* Debug */ = {
+		CBFD66C31CBBEE4A24B97D6774480A7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA05F69C14666EDEFB4E4AB50F94A2FC /* Pods-TrackMe-TrackMeUITests.debug.xcconfig */;
+			baseConfigurationReference = E6F97D3535D93AEC8ABEC5F2D792512D /* MBProgressHUD.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4F409146983BBD1A03C4C502C43E12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63FCDD4A341704F23F446B311AE5C3C /* SPAlert.debug.xcconfig */;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1284,23 +1670,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TrackMe-TrackMeUITests/Pods-TrackMe-TrackMeUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SPAlert/SPAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPAlert/SPAlert-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TrackMe-TrackMeUITests/Pods-TrackMe-TrackMeUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SPAlert/SPAlert.modulemap";
+				PRODUCT_MODULE_NAME = SPAlert;
+				PRODUCT_NAME = SPAlert;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1344,14 +1729,60 @@
 			};
 			name = Debug;
 		};
+		E986AB3726B6C39311691A0795BE00DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6974F0B1831793A619063A45D00E6D2C /* Pods-TrackMe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrackMe/Pods-TrackMe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrackMe/Pods-TrackMe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BCF74134B51E116FF118642FB66BE2E /* Build configuration list for PBXNativeTarget "Pods-TrackMe-TrackMeUITests" */ = {
+		29B6CF0166BE536E5AE9DD026D25BE5B /* Build configuration list for PBXNativeTarget "Pods-TrackMe-TrackMeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9EC435AF9FD70869B4300BF92079A08 /* Debug */,
-				3483ED2B2299FE3B6F988FB301DF5BA2 /* Release */,
+				09A68577E433E3FD8F4729464A038C2F /* Debug */,
+				536F72A80551FB13B25676ABA04B9863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B310034CAF0ACC7A42429F089258D1 /* Build configuration list for PBXNativeTarget "SPAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4F409146983BBD1A03C4C502C43E12C /* Debug */,
+				AB5913B5BBECE87C71250B290813DB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1370,6 +1801,24 @@
 			buildConfigurations = (
 				3790CA55E17BBFD6D273CDD16A313F36 /* Debug */,
 				02F60724EE576D881DB51D418EC12279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70191416B9573C7ABB42333A08FA2DE4 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFD66C31CBBEE4A24B97D6774480A7E /* Debug */,
+				93A2FF79E2EC721C724D10C8C2AF1B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900C236E8FB91B881E9EE70453D08EF2 /* Build configuration list for PBXNativeTarget "Pods-TrackMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E986AB3726B6C39311691A0795BE00DC /* Debug */,
+				44E9650532AA8FFA9E3D930CC6FCFCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1397,15 +1846,6 @@
 			buildConfigurations = (
 				E43AF5AC5CB80E18A065298E126DC193 /* Debug */,
 				AF7A8259BCB6DA5A1CB354871CFF62E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EEC4E067B3D84BC615A57EA8F543683D /* Build configuration list for PBXNativeTarget "Pods-TrackMe" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7142B01303A203DBC9D06BA4FEABD7EF /* Debug */,
-				87FD4F338E6C57F2709EC1570031E87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

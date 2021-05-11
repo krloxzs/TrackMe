@@ -9,7 +9,8 @@ target 'TrackMe' do
   pod 'KeychainSwift', '~> 19.0'
   pod "NSLogger/Swift"
   pod "TPKeyboardAvoidingSwift"
-
+  pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'SPAlert'
   target 'TrackMeTests' do
     inherit! :search_paths
     # Pods for testing
